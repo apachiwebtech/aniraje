@@ -34,7 +34,7 @@
                     <i class="bi bi-twitter px-1"></i>
                 </div>
             </div>
-            <div class="header2 d-flex justify-content-between align-items-center py-3">
+            <div class="header2 desktop-header d-flex justify-content-between align-items-center py-3">
                 <div>
                     <p>+91 9326476448</p>
                 </div>
@@ -49,17 +49,28 @@
                     <button class="custom-btn">BOOK A CALL</button>
                 </div>
             </div>
+            <div class="ham py-3">
+                <i class="bi bi-list hamburger" onclick="myFunction()"></i>
+
+            </div>
+            <div class="menu" id="menu">
+                <a class="px-2" style="padding-top: 70px;" href="index.html">Home</a>
+                    <a class="px-2" href="about.html">About</a>
+                    <a class="px-2" href="project.html">Projects</a>
+                    <a class="px-2" href="service.html">Services</a>
+                    <a class="px-2" href="contact.html">Contact</a>
+            </div>
             <div class="py-5">
                 <div>
                     <h1>We Are Interior <br />Designing Expert</h1>
                     <h5>Have some query?Call 24Hr Emergency Service</h5>
                 </div>
                 <button class="custom-btn my-5">BOOK A CALL</button>
-
+                
             </div>
         </div>
-
-
+        
+        
     </div>
 
 
@@ -91,8 +102,8 @@
         </div>
         <div class="padd-10rem">
             <div class="row">
-                <div class="col-lg-6 text-center">
-                    <div class="about-img " data-aos="zoom-out-up">
+                <div class="col-lg-6 text-center" data-aos="zoom-out-up">
+                    <div class="about-img " >
                         <img src="img/seaction-1.jpg" width="100%" alt="">
                     </div>
                 </div>
@@ -131,7 +142,7 @@
         </div>
         <div class="container">
             <div class="padd-10rem">
-                <div class="row">
+                <div class="">
                     <div class="text-center">
                         <h6>Our Service</h6>
                         <h2>Professional Interior Designer Contractor</h2>
@@ -178,7 +189,7 @@
     <div class="section-4 ">
         <div class="container">
             <div class="padd-10rem">
-                <div class="row">
+                <div class="">
                     <div class="text-start">
                         <h6>Why Choose Us</h6>
                         <h2>Six Reason For People Choosing Us</h2>
@@ -283,7 +294,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="">
                     <div class="text-center">
                         <!-- <h6>Our Service</h6> -->
                         <h2>People Say The Nicest Things</h2>
@@ -395,24 +406,24 @@
     <div class="section-7 text-light">
         <div class="container py-5">
             <footer class="row ">
-                <div class="col-lg-3">
+                <div class="col-lg-3 py-2">
                     <h4>About</h4>
                     <p>Welcome to Aniraje Interior, where interior design meets innovation and craftsmanship. We specialize in transforming spaces into personalized sanctuaries that blend elegance with functionality....</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 py-2">
                     <h4>Quick Links</h4>
                     <a href="#" style="display: block;">Privacy Policy</a>
                     <a href="#" style="display: block;">Terms Of Use</a>
                     <a href="#" style="display: block;">Faq</a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 py-2">
                     <h4>Our Service</h4>
                     <a href="service.html" style="display: block;">Civil</a>
                     <a href="service.html" style="display: block;">Plumbing</a>
                     <a href="service.html" style="display: block;">Curtains</a>
                     <a href="service.html" style="display: block;">Electrician</a>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 py-2">
                     <h4>Free Estimate</h4>
                     <p>+ 91 9326476448</p>
                 </div>
@@ -420,6 +431,12 @@
         </div>
 
     </div>
+    <script>
+        function myFunction() {
+           var element = document.getElementById("menu");
+           element.classList.toggle("sidemenu");
+        }
+        </script>
     <script>
         AOS.init();
     </script>

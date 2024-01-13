@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
 body{
     overflow-x: hidden;
     font-family: 'Rubik', sans-serif;
@@ -24,6 +27,9 @@ a{
   text-decoration: none;
   color: #fff;
 }
+.ham{
+  display: none;
+}
 .padd-10rem{
     padding: 10rem 0rem;
 }
@@ -44,9 +50,9 @@ a{
     padding: 10px;
     color: #fff;
 }
-.about-img{
+/* .about-img{
     width: 400px;
-}
+} */
 .section-4 i{
 font-size: 35px;
 }
@@ -136,4 +142,63 @@ font-size: 35px;
   }
   .Our-clients img{
     width: 200px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .desktop-header {
+      display: none !important;
+    }
+    .header1{
+      display: none !important;
+    }
+    .floating-count{
+      position:static;
+      margin-left: 50%;
+    }
+    .floating-form{
+      position: static;
+      margin-left: 50%;
+    }
+    .section-1{
+      height: 600px;
+    }
+    .floating-form{
+      margin-top: 10rem;
+    }
+    .hamburger{
+      border: 3px solid lightgrey;
+      color: #fff;
+      font-size: 30px;
+      border-radius: 10px;
+      font-weight: 600;
+      z-index: 200;
+      position: fixed;
+      left: 17px;
+      top: 10px;
+      padding: 0px 5px;
+    }
+    .ham{
+      display: block;
+    }
+    .menu{
+      /* line-height: 2; */
+      backdrop-filter: blur(10px); 
+      height: 100vh;
+      position: fixed;
+      top: 0px;
+      left:0px;
+      width: 70%;
+      z-index: 100;
+      transform: translateX(-100%);
+      transition: 0.5s;
+      
+    }
+    .menu a{
+      display: block;
+      line-height: 3;
+     margin-left: 10px;
+    }
+    .sidemenu{
+      transform: translateX(0%);
+    }
   }
