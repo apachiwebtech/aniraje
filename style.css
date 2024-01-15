@@ -6,6 +6,12 @@
 html{
   overflow-x: hidden;
 }
+.overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
 body{
     overflow-x: hidden;
     font-family: 'Rubik', sans-serif;
@@ -182,7 +188,7 @@ font-size: 35px;
     }
     .menu{
       /* line-height: 2; */
-      backdrop-filter: blur(10px); 
+      backdrop-filter: blur(30px); 
       height: 100vh;
       position: fixed;
       top: 0px;
@@ -191,12 +197,26 @@ font-size: 35px;
       z-index: 100;
       transform: translateX(-100%);
       transition: 0.5s;
+      border:1px solid #fff;
+      border-radius: 0px 20px;
       
+      
+    }
+    .overlay{
+      background-color: rgba(0,0,0,0.5);
+      height: 600px;
+      position: absolute;
+      width: 100%;
+    }
+    .padd-10rem{
+      padding: 5rem 0rem;
     }
     .menu a{
       display: block;
       line-height: 3;
      margin-left: 10px;
+     /* color: #cb4154 !important; */
+     font-size: 22px;
     }
     .sidemenu{
       transform: translateX(0%);
