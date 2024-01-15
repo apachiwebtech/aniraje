@@ -12,6 +12,9 @@ html{
   position: absolute;
   width: 100%;
 }
+.menu{
+  display: none;
+}
 body{
     overflow-x: hidden;
     font-family: 'Rubik', sans-serif;
@@ -206,7 +209,7 @@ font-size: 35px;
       border:1px solid #fff;
       border-radius: 0px 20px;
       
-      
+      display: block;
     }
     .overlay{
       background-color: rgba(0,0,0,0.5);
