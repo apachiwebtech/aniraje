@@ -169,7 +169,7 @@ font-size: 35px;
       height: 600px;
     }
     .floating-form{
-      margin-top: 10rem;
+      margin-top: -2rem;
     }
     .hamburger{
       border: 3px solid lightgrey;
@@ -220,5 +220,12 @@ font-size: 35px;
     }
     .sidemenu{
       transform: translateX(0%);
+    }
+
+    h1{
+      font-size: 53px;
+    }
+    h5{
+      font-size: 15px;
     }
   }
