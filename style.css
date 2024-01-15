@@ -25,7 +25,7 @@ h2{
  font-weight: 700;
 }
 h6{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 700;
     color: #cb4154;
 }
@@ -83,7 +83,7 @@ font-size: 35px;
 }
 
 ::-webkit-scrollbar {
-    width: 2px;
+    width: 0px;
     
   }
   
@@ -149,7 +149,13 @@ font-size: 35px;
   .Our-clients img{
     width: 200px;
   }
-
+ .section-3 a {
+  color: red !important;
+  font-size: 12px;
+ }
+ .section-3 p{
+  color: #a39d9d !important;
+ }
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
@@ -209,7 +215,7 @@ font-size: 35px;
       width: 100%;
     }
     .padd-10rem{
-      padding: 5rem 0rem;
+      padding: 3rem 0rem;
     }
     .menu a{
       display: block;
