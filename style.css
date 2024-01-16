@@ -36,6 +36,9 @@ a{
   text-decoration: none;
   color: #fff;
 }
+p{
+  line-height: 1.7;
+}
 .ham{
   display: none;
 }
@@ -168,7 +171,9 @@ font-size: 35px;
   overflow-y: hidden !important;
  }
 
- 
+ .client-img img{
+aspect-ratio: 3/2;
+ }
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
