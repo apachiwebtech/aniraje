@@ -159,6 +159,9 @@ font-size: 35px;
  .section-3 p{
   color: #a39d9d !important;
  }
+ .section-3 .text-l{
+  color: #fff !important;
+ }
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
