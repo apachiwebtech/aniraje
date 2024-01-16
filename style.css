@@ -162,6 +162,13 @@ font-size: 35px;
  .section-3 .text-l{
   color: #fff !important;
  }
+
+ .ser-img{
+  height: 260px !important;
+  overflow-y: hidden !important;
+ }
+
+ 
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
