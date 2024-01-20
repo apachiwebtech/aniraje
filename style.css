@@ -150,7 +150,7 @@ font-size: 35px;
     padding: 100px 0px;
   }
   .Our-clients{
-    background-color: #cb4154;
+    /* background-color: #cb4154; */
   }
   .Our-clients img{
     width: 130px;
@@ -194,6 +194,29 @@ aspect-ratio: 3/2;
 .services p{
   color: lightslategray;
   font-size: 14px;
+}
+
+.process-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border: 2px solid #cb4154;
+}
+.arrow{
+  position: absolute;
+  left: 240px;
+  top: 50px;
+  /* transform: translateY(-50%); */
+  font-size: 50px;
+  color: #cb4154;
+}
+.bg-main{
+  background: #cb4154;
+  color: #fff;
 }
   @media only screen and (max-width: 600px) {
     .desktop-header {
@@ -272,5 +295,11 @@ aspect-ratio: 3/2;
     }
     h5{
       font-size: 15px;
+    }
+    .arrow{
+      display: none;
+    }
+    .py-5{
+      padding: 20px 0px !important;
     }
   }
