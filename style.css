@@ -153,7 +153,7 @@ font-size: 35px;
     background-color: #cb4154;
   }
   .Our-clients img{
-    width: 200px;
+    width: 130px;
   }
  .section-3 a {
   color: red !important;
@@ -170,10 +170,31 @@ font-size: 35px;
   height: 260px !important;
   overflow-y: hidden !important;
  }
-
+.orange{
+  color: orange;
+}
  .client-img img{
 aspect-ratio: 3/2;
  }
+
+.query{
+  padding: 60px 10px;
+}
+.card{
+  border-right  : 5px solid #cb4154 !important;
+  box-shadow: 1px 4px 10px lightgray;
+  height: 350px;
+  overflow-y: hidden;
+}
+.services h5{
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.services p{
+  color: lightslategray;
+  font-size: 14px;
+}
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
