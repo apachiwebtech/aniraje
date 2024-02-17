@@ -222,6 +222,24 @@ aspect-ratio: 3/2;
   background: #cb4154;
   color: #fff;
 }
+.blur-input{
+  background: transparent;
+  backdrop-filter: blur;
+  color: #fff !important;
+}
+.blur-input ::placeholder{
+  color: #fff !important;
+}
+.blur-input:focus{
+  background: transparent;
+}
+.labs{
+  color: #fff !important;
+}
+.labs:focus{
+  color: #000 !important;
+  background-color: #000;
+}
   @media only screen and (max-width: 600px) {
     .desktop-header {
       display: none !important;
