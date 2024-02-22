@@ -12,6 +12,19 @@ html {
   position: absolute;
   width: 100%;
 }
+.navbar-main a{
+/* color : #000 */
+}
+.navbar-main{
+  box-shadow: 1px 1px 10px black;
+  position: fixed;
+  top: 0px;
+  background-color: #A0A19F;
+  width: 100%;
+  z-index: 1000;
+  /* border-radius: 25px !important; */
+  border: none;
+}
 .menu {
   display: none;
 }
@@ -29,7 +42,7 @@ h2 {
 h6 {
   font-size: 20px;
   font-weight: 700;
-  color: #cb4154;
+  color: #EF4D37;
 }
 a {
   text-decoration: none;
@@ -40,13 +53,14 @@ p {
 }
 .ham {
   display: none;
+  height: 70px;
 }
 .padd-10rem {
   padding: 10rem 0rem;
 }
 
 .section-1 {
-  background-image: url(img/seaction-1.jpg);
+  background-image: url(img/frontbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -55,7 +69,7 @@ p {
   border-bottom: 1px solid lightgrey;
 }
 .custom-btn {
-  background-color: #cb4154;
+  background-color: #EF4D37;
   border: none;
   border-radius: 5px;
   padding: 10px;
@@ -137,7 +151,7 @@ p {
   background-color: #131d3b;
 }
 .section-7 h4 {
-  color: #cb4154;
+  color: #EF4D37;
 }
 .section-7 a {
   text-decoration: none;
@@ -151,7 +165,7 @@ p {
   padding: 100px 0px;
 }
 .Our-clients {
-  /* background-color: #cb4154; */
+  /* background-color: #EF4D37; */
 }
 .Our-clients img {
   width: 130px;
@@ -182,7 +196,7 @@ p {
   padding: 60px 10px;
 }
 .card {
-  border-right: 5px solid #cb4154 !important;
+  border-right: 5px solid #EF4D37 !important;
   box-shadow: 1px 4px 10px lightgray;
   height: 350px;
   overflow-y: hidden;
@@ -205,7 +219,7 @@ p {
   display: flex;
   /* align-items: center; */
   /* justify-content: center; */
-  border: 2px solid #cb4154;
+  border: 2px solid #EF4D37;
 }
 .arrow {
   position: absolute;
@@ -213,10 +227,10 @@ p {
   top: 50px;
   /* transform: translateY(-50%); */
   font-size: 50px;
-  color: #cb4154;
+  color: #EF4D37;
 }
 .bg-main {
-  background: #cb4154;
+  background: #EF4D37;
   color: #fff;
 }
 .blur-input {
@@ -268,6 +282,7 @@ p {
     font-size: 30px;
     border-radius: 10px;
     font-weight: 600;
+    margin-left: 10px;
     z-index: 200;
     position: fixed;
     left: 17px;
@@ -306,7 +321,7 @@ p {
     display: block;
     line-height: 3;
     margin-left: 10px;
-    /* color: #cb4154 !important; */
+    /* color: #EF4D37 !important; */
     font-size: 22px;
   }
   .sidemenu {
