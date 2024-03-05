@@ -13,6 +13,12 @@ const formBtnPrev7 = document.querySelector("#btn-7-prev")
 const formBtnNext7 = document.querySelector("#btn-7-next")
 const formBtnPrev8 = document.querySelector("#btn-8-prev")
 const formBtnNext8 = document.querySelector("#btn-8-next")
+const formBtnPrev9 = document.querySelector("#btn-9-prev")
+const formBtnNext9 = document.querySelector("#btn-9-next")
+const formBtnPrev10 = document.querySelector("#btn-10-prev")
+const formBtnNext10 = document.querySelector("#btn-10-next")
+const formBtnPrev11 = document.querySelector("#btn-11-prev")
+const formBtnNext11 = document.querySelector("#btn-11-next")
 const formBtn3 = document.querySelector("#btn-3")
 
 formBtn1.addEventListener("click", function (e) {
@@ -94,6 +100,42 @@ formBtnNext8.addEventListener("click", function (e) {
 // // Previous button listener of form 2
 formBtnPrev8.addEventListener("click", function (e) {
   gotoNextForm(formBtnNext8, formBtnNext7, 8, 7)
+  e.preventDefault()
+})
+
+formBtnNext9.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext9, formBtnNext10, 9, 10)
+  e.preventDefault()
+})
+
+// // Previous button listener of form 2
+formBtnPrev9.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext9, formBtnNext8, 9, 8)
+  e.preventDefault()
+})
+
+formBtnNext10.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext10, formBtnNext11, 10, 11)
+  e.preventDefault()
+})
+
+// // Previous button listener of form 2
+formBtnPrev10.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext10, formBtnNext9, 10, 9)
+  e.preventDefault()
+})
+formBtnNext11.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext11, formBtn3, 11, 12)
+  e.preventDefault()
+})
+
+// // Previous button listener of form 2
+formBtnPrev11.addEventListener("click", function (e) {
+  gotoNextForm(formBtnNext11, formBtnNext10, 11, 10)
+  e.preventDefault()
+})
+formBtn3.addEventListener("click", function (e) {
+  gotoNextForm(formBtn3, formBtn3,12 , 12)
   e.preventDefault()
 })
 

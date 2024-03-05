@@ -34,7 +34,13 @@ main {
   .step--3,
   .step--4,
   .step--5,
-  .step--6 {
+  .step--6,
+  .step--7,
+  .step--8,
+  .step--9,
+  .step--10,
+  .step--11
+   {
     width: 5rem;
     padding: 0.5rem 0;
     background: #fff;
@@ -46,7 +52,13 @@ main {
   .step--3,
   .step--4,
   .step--5, 
-  .step--6 {
+  .step--6,
+  .step--7,
+  .step--8,
+  .step--9,
+  .step--10,
+  .step--11
+   {
     border-right: 1px solid #666;
   }
 
@@ -55,7 +67,9 @@ main {
     right: 6px;
     /* color: #000; */
   }
-
+.form-back{
+  background-color: #bdbdbb;
+}
   .form {
     margin-top: 50px;
     background: #fff;
@@ -72,7 +86,7 @@ main {
   .form--header-container {
     /* background: linear-gradient(to right, rgb(51, 51, 51), #919191); */
     color: #000;
-    height: 6rem;
+    /* height: 6rem; */
     padding: 1rem 0;
     margin-bottom: 2rem;
   }
